@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" role="img" aria-labelledby="title desc">
+  <title id="title">Step Sync product catalog preview</title>
+  <desc id="desc">A product catalog interface inspired by the Step Sync inventory screenshot.</desc>
+  <rect width="1200" height="800" fill="#ededed"/>
+  <rect x="0" y="0" width="1200" height="112" fill="#d8d5d4"/>
+  <text x="52" y="62" fill="#111" font-family="Arial, Helvetica, sans-serif" font-size="42" font-weight="900">STEP</text>
+  <text x="52" y="102" fill="#d8124c" font-family="Arial, Helvetica, sans-serif" font-size="42" font-weight="900">SYNC.</text>
+  <text x="374" y="78" fill="#111" font-family="Arial, Helvetica, sans-serif" font-size="25">DASHBOARD</text>
+  <text x="536" y="78" fill="#111" font-family="Arial, Helvetica, sans-serif" font-size="25" text-decoration="underline">PRODUCT CATALOG</text>
+  <text x="746" y="78" fill="#111" font-family="Arial, Helvetica, sans-serif" font-size="25">ORDER &amp; REQUEST</text>
+  <text x="988" y="78" fill="#111" font-family="Arial, Helvetica, sans-serif" font-size="25">SALES</text>
+  <rect x="214" y="158" width="772" height="584" rx="18" fill="#f8f8f8" stroke="#dfdfdf"/>
+  <rect x="262" y="206" width="330" height="320" fill="#efefef"/>
+  <path d="M300 468c94-110 221-116 278-22-82 36-172 42-278 22z" fill="#111"/>
+  <path d="M320 454c84-36 149-36 224 0-62 28-138 32-224 0z" fill="#262626"/>
+  <text x="638" y="270" fill="#e23535" font-family="Arial, Helvetica, sans-serif" font-size="50">BELLA NOIR</text>
+  <text x="640" y="324" fill="#111" font-family="Arial, Helvetica, sans-serif" font-size="27">Description:</text>
+  <text x="640" y="366" fill="#222" font-family="Arial, Helvetica, sans-serif" font-size="22">Classic black leather heels with durable construction,</text>
+  <text x="640" y="402" fill="#222" font-family="Arial, Helvetica, sans-serif" font-size="22">inventory details, supplier fields, and stock tracking.</text>
+  <text x="640" y="492" fill="#222" font-family="Arial, Helvetica, sans-serif" font-size="34">Price: PHP 999</text>
+  <text x="640" y="548" fill="#222" font-family="Arial, Helvetica, sans-serif" font-size="25">Quantity: 56</text>
+  <text x="640" y="590" fill="#222" font-family="Arial, Helvetica, sans-serif" font-size="25">Category: Women's</text>
+  <text x="262" y="594" fill="#111" font-family="Arial, Helvetica, sans-serif" font-size="24">Size and Chart</text>
+  <g fill="#b9b4b4">
+    <rect x="262" y="618" width="48" height="48" rx="8"/>
+    <rect x="324" y="618" width="48" height="48" rx="8"/>
+    <rect x="386" y="618" width="48" height="48" rx="8"/>
+    <rect x="448" y="618" width="48" height="48" rx="8"/>
+    <rect x="510" y="618" width="48" height="48" rx="8"/>
+  </g>
+  <text x="280" y="651" fill="#fff" font-family="Arial, Helvetica, sans-serif" font-size="24">6</text>
+  <text x="342" y="651" fill="#fff" font-family="Arial, Helvetica, sans-serif" font-size="24">7</text>
+  <text x="404" y="651" fill="#fff" font-family="Arial, Helvetica, sans-serif" font-size="24">8</text>
+  <text x="466" y="651" fill="#fff" font-family="Arial, Helvetica, sans-serif" font-size="24">9</text>
+  <text x="522" y="651" fill="#fff" font-family="Arial, Helvetica, sans-serif" font-size="24">10</text>
+</svg>

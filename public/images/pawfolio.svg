@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" role="img" aria-labelledby="title desc">
+  <title id="title">PawFolio preview placeholder</title>
+  <desc id="desc">A pet health dashboard themed project preview.</desc>
+  <rect width="1200" height="800" fill="#eef7ef"/>
+  <rect x="92" y="76" width="1016" height="648" rx="28" fill="#ffffff" stroke="#d5e2d8" stroke-width="4"/>
+  <rect x="92" y="76" width="1016" height="96" rx="28" fill="#123f38"/>
+  <circle cx="164" cy="124" r="22" fill="#f5f7f2"/>
+  <rect x="220" y="108" width="250" height="28" rx="14" fill="#f5f7f2" opacity=".82"/>
+  <rect x="160" y="244" width="390" height="238" rx="18" fill="#f5f7f2" stroke="#d9e0e6" stroke-width="3"/>
+  <rect x="610" y="244" width="330" height="70" rx="14" fill="#dceee4"/>
+  <rect x="610" y="342" width="330" height="70" rx="14" fill="#dceee4"/>
+  <rect x="610" y="440" width="330" height="70" rx="14" fill="#dceee4"/>
+  <circle cx="300" cy="322" r="58" fill="#b45230"/>
+  <circle cx="245" cy="286" r="24" fill="#b45230"/>
+  <circle cx="355" cy="286" r="24" fill="#b45230"/>
+  <circle cx="268" cy="374" r="18" fill="#123f38"/>
+  <circle cx="332" cy="374" r="18" fill="#123f38"/>
+  <rect x="160" y="552" width="780" height="34" rx="17" fill="#a7c4b5"/>
+  <rect x="160" y="612" width="610" height="28" rx="14" fill="#d5e2d8"/>
+</svg>

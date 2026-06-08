@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" role="img" aria-labelledby="title desc">
+  <title id="title">Dental appointment system preview</title>
+  <desc id="desc">A dental clinic appointment dashboard placeholder.</desc>
+  <rect width="1200" height="800" fill="#0f1312"/>
+  <rect x="92" y="76" width="1016" height="648" rx="28" fill="#171c1a" stroke="#2b342f" stroke-width="4"/>
+  <rect x="148" y="140" width="320" height="44" rx="12" fill="#48f69b"/>
+  <rect x="148" y="250" width="270" height="390" rx="20" fill="#222a26"/>
+  <rect x="500" y="250" width="420" height="96" rx="18" fill="#222a26"/>
+  <rect x="500" y="384" width="420" height="96" rx="18" fill="#222a26"/>
+  <rect x="500" y="518" width="420" height="96" rx="18" fill="#222a26"/>
+  <path d="M266 314c42-74 124-36 104 47-8 33-26 61-41 96-12 28-17 63-36 63s-24-35-36-63c-15-35-33-63-41-96-20-83 62-121 104-47z" fill="#eef7f0"/>
+  <circle cx="574" cy="298" r="22" fill="#48f69b"/>
+  <circle cx="574" cy="432" r="22" fill="#48f69b"/>
+  <circle cx="574" cy="566" r="22" fill="#48f69b"/>
+  <rect x="626" y="280" width="246" height="18" rx="9" fill="#eef7f0"/>
+  <rect x="626" y="414" width="246" height="18" rx="9" fill="#eef7f0"/>
+  <rect x="626" y="548" width="246" height="18" rx="9" fill="#eef7f0"/>
+  <rect x="626" y="310" width="168" height="14" rx="7" fill="#87928b"/>
+  <rect x="626" y="444" width="168" height="14" rx="7" fill="#87928b"/>
+  <rect x="626" y="578" width="168" height="14" rx="7" fill="#87928b"/>
+</svg>

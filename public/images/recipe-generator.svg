@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" role="img" aria-labelledby="title desc">
+  <title id="title">Recipe Generator preview placeholder</title>
+  <desc id="desc">A recipe application themed project preview.</desc>
+  <rect width="1200" height="800" fill="#f6efe8"/>
+  <rect x="92" y="76" width="1016" height="648" rx="28" fill="#ffffff" stroke="#e1d6ca" stroke-width="4"/>
+  <rect x="156" y="150" width="370" height="500" rx="24" fill="#f5f7f2"/>
+  <circle cx="341" cy="316" r="120" fill="#ffffff" stroke="#e5d7c8" stroke-width="22"/>
+  <circle cx="341" cy="316" r="54" fill="#f0bd48"/>
+  <path d="M289 307c55-78 139-45 154 17-44 26-97 35-154-17z" fill="#2d7b74"/>
+  <path d="M271 382c72 20 137-6 183-56 8 74-44 121-103 124-37 2-67-16-80-68z" fill="#b45230"/>
+  <rect x="610" y="172" width="304" height="38" rx="19" fill="#123f38"/>
+  <rect x="610" y="254" width="420" height="26" rx="13" fill="#d7c1a7"/>
+  <rect x="610" y="310" width="360" height="26" rx="13" fill="#d7c1a7"/>
+  <rect x="610" y="366" width="470" height="26" rx="13" fill="#d7c1a7"/>
+  <rect x="610" y="476" width="188" height="58" rx="18" fill="#b45230"/>
+  <rect x="824" y="476" width="188" height="58" rx="18" fill="#2d7b74"/>
+</svg>

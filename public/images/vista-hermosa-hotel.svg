@@ -1,0 +1,126 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">Vista Hermosa Hotel room dashboard</title>
+  <desc id="desc">A Vista Hermosa Hotel dashboard with a magenta sidebar, hotel logo, and three room cards.</desc>
+  <defs>
+    <linearGradient id="night" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#201413"/>
+      <stop offset="0.36" stop-color="#442420"/>
+      <stop offset="0.68" stop-color="#27313c"/>
+      <stop offset="1" stop-color="#121f25"/>
+    </linearGradient>
+    <linearGradient id="water" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#6d1b8f"/>
+      <stop offset="0.25" stop-color="#b22d9d"/>
+      <stop offset="0.55" stop-color="#d6a94f"/>
+      <stop offset="1" stop-color="#0f8aa0"/>
+    </linearGradient>
+    <linearGradient id="roomA" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#f4c1a6"/>
+      <stop offset="0.45" stop-color="#8d294d"/>
+      <stop offset="1" stop-color="#48112d"/>
+    </linearGradient>
+    <linearGradient id="roomB" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#ffbfa8"/>
+      <stop offset="0.55" stop-color="#ba2753"/>
+      <stop offset="1" stop-color="#4b1233"/>
+    </linearGradient>
+    <linearGradient id="roomC" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#f8d0b8"/>
+      <stop offset="0.48" stop-color="#74204d"/>
+      <stop offset="1" stop-color="#210f25"/>
+    </linearGradient>
+    <linearGradient id="gold" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#fff29a"/>
+      <stop offset="0.55" stop-color="#e1b741"/>
+      <stop offset="1" stop-color="#8a6419"/>
+    </linearGradient>
+    <filter id="softShadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="18" stdDeviation="18" flood-color="#000" flood-opacity=".35"/>
+    </filter>
+    <pattern id="windows" width="34" height="38" patternUnits="userSpaceOnUse">
+      <rect width="34" height="38" fill="none"/>
+      <rect x="8" y="8" width="8" height="11" rx="2" fill="#f8d867" opacity=".45"/>
+    </pattern>
+  </defs>
+
+  <rect width="1600" height="900" fill="#f8f4ee"/>
+  <rect x="56" y="64" width="1488" height="772" rx="28" fill="url(#night)" filter="url(#softShadow)"/>
+  <rect x="56" y="64" width="1488" height="772" rx="28" fill="url(#windows)" opacity=".38"/>
+  <path d="M540 558 C720 486 925 585 1095 520 C1260 457 1370 448 1544 492 L1544 836 L56 836 L56 654 C224 701 370 622 540 558Z" fill="url(#water)" opacity=".62"/>
+
+  <path d="M520 512 L620 176 L690 155 L734 454 Z" fill="#17171c" opacity=".78"/>
+  <path d="M632 500 L762 136 L835 154 L852 496 Z" fill="#1f2028" opacity=".8"/>
+  <path d="M756 502 L882 202 L944 234 L918 510 Z" fill="#181a20" opacity=".76"/>
+
+  <rect x="56" y="64" width="292" height="772" rx="28" fill="#7d0753"/>
+  <rect x="56" y="448" width="292" height="66" rx="22" fill="#641241"/>
+  <circle cx="194" cy="186" r="92" fill="#5e123d"/>
+  <circle cx="194" cy="186" r="76" fill="#c78aa2"/>
+  <path d="M137 210 C162 176 198 166 238 185 M131 206 C149 230 193 239 242 219" fill="none" stroke="url(#gold)" stroke-width="6" stroke-linecap="round"/>
+  <path d="M158 202 L158 158 L178 148 L178 198 M195 197 L195 135 L219 148 L219 200 M232 204 L232 165 L253 174 L253 210" fill="none" stroke="url(#gold)" stroke-width="5" stroke-linejoin="round"/>
+  <text x="194" y="238" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="22" fill="#f4d46a" letter-spacing="3">VISTA HERMOSA</text>
+  <text x="194" y="260" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="14" fill="#f4d46a" letter-spacing="7">HOTEL</text>
+
+  <g font-family="Arial, Helvetica, sans-serif" font-size="27" fill="#fff" letter-spacing="2">
+    <text x="160" y="366">DASHBOARD</text>
+    <text x="160" y="438">BOOKING</text>
+    <text x="160" y="510">ROOMS</text>
+    <text x="160" y="582">GUESTS</text>
+    <text x="160" y="654">INVOICES</text>
+    <text x="160" y="726">REPORT</text>
+  </g>
+  <g fill="none" stroke="#fff" stroke-width="4" opacity=".9">
+    <rect x="104" y="336" width="34" height="28" rx="3"/>
+    <rect x="102" y="410" width="40" height="32" rx="7"/>
+    <rect x="102" y="482" width="42" height="24" rx="6"/>
+    <circle cx="116" cy="555" r="14"/>
+    <rect x="105" y="623" width="42" height="52" rx="4"/>
+    <rect x="104" y="696" width="44" height="52" rx="7"/>
+  </g>
+  <rect x="104" y="746" width="210" height="58" rx="24" fill="#68113f"/>
+  <text x="208" y="784" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="25" fill="#fff">Log Out</text>
+
+  <g transform="translate(876 112)">
+    <path d="M-78 120 C-28 66 60 54 132 86 M-92 113 C-54 162 54 178 154 132" fill="none" stroke="url(#gold)" stroke-width="9" stroke-linecap="round"/>
+    <path d="M-38 107 L-38 26 L0 6 L0 105 M36 105 L36 -18 L82 7 L82 113 M120 119 L120 42 L158 58 L158 128" fill="none" stroke="url(#gold)" stroke-width="8" stroke-linejoin="round"/>
+    <text x="34" y="222" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="44" fill="#e5c85a" letter-spacing="5">VISTA HERMOSA</text>
+    <text x="34" y="258" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="22" fill="#e5c85a" letter-spacing="15">HOTEL</text>
+  </g>
+
+  <rect x="360" y="350" width="1160" height="338" rx="26" fill="#f3e8e0" opacity=".62"/>
+
+  <g transform="translate(388 380)" filter="url(#softShadow)">
+    <rect width="368" height="290" rx="22" fill="#741049"/>
+    <rect width="368" height="176" rx="22" fill="url(#roomA)"/>
+    <rect x="34" y="58" width="115" height="82" rx="8" fill="#f6dfcf"/>
+    <rect x="142" y="56" width="115" height="84" rx="8" fill="#fff3e6"/>
+    <rect x="252" y="58" width="88" height="82" rx="8" fill="#d36b77"/>
+    <rect x="0" y="154" width="368" height="114" fill="#7b0f4c" opacity=".95"/>
+    <text x="184" y="211" text-anchor="middle" font-family="Arial Black, Arial, sans-serif" font-size="42" fill="#fff">STANDARD ROOM</text>
+    <text x="184" y="251" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="20" fill="#f6d8dc">2-3 adults  |  Two Single Beds  |  Standard Amenities</text>
+  </g>
+
+  <g transform="translate(778 380)" filter="url(#softShadow)">
+    <rect width="368" height="290" rx="22" fill="#741049"/>
+    <rect width="368" height="176" rx="22" fill="url(#roomB)"/>
+    <rect x="70" y="72" width="150" height="86" rx="8" fill="#fff0e1"/>
+    <rect x="220" y="50" width="78" height="112" rx="8" fill="#a52655"/>
+    <rect x="40" y="40" width="42" height="130" fill="#edc0bd"/>
+    <rect x="0" y="154" width="368" height="114" fill="#7b0f4c" opacity=".95"/>
+    <text x="184" y="211" text-anchor="middle" font-family="Arial Black, Arial, sans-serif" font-size="42" fill="#fff">DELUXE ROOM</text>
+    <text x="184" y="251" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="20" fill="#f6d8dc">2-4 adults  |  Queen-sized Bed  |  Deluxe Amenities</text>
+  </g>
+
+  <g transform="translate(1168 380)" filter="url(#softShadow)">
+    <rect width="368" height="290" rx="22" fill="#741049"/>
+    <rect width="368" height="176" rx="22" fill="url(#roomC)"/>
+    <rect x="90" y="74" width="170" height="82" rx="8" fill="#fff0df"/>
+    <rect x="260" y="18" width="84" height="158" rx="4" fill="#381b2b"/>
+    <path d="M268 20 L344 176 M344 20 L268 176" stroke="#d5a05a" stroke-width="4" opacity=".6"/>
+    <rect x="0" y="154" width="368" height="114" fill="#7b0f4c" opacity=".95"/>
+    <text x="184" y="211" text-anchor="middle" font-family="Arial Black, Arial, sans-serif" font-size="42" fill="#fff">SUITE ROOM</text>
+    <text x="184" y="251" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="20" fill="#f6d8dc">2-4 adults  |  King-sized Bed  |  Suite Amenities</text>
+  </g>
+
+  <text x="946" y="746" text-anchor="middle" font-family="Arial Black, Arial, sans-serif" font-size="36" fill="#f2dfd7" opacity=".82" letter-spacing="4">EXPERIENCE LUXURY, EMBRACE COMFORT</text>
+</svg>
