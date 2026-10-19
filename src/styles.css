@@ -888,6 +888,39 @@ h3 {
   transition: transform 320ms ease, filter 320ms ease;
 }
 
+.project-brand {
+  display: grid;
+  align-content: center;
+  justify-items: center;
+  gap: 8px;
+  width: 100%;
+  height: 100%;
+  padding: 24px;
+  color: #f4fff8;
+  text-align: center;
+}
+
+.project-brand strong {
+  font-size: clamp(1.6rem, 3vw, 2.5rem);
+  letter-spacing: -0.04em;
+}
+
+.project-brand span {
+  color: rgba(255, 255, 255, 0.72);
+  font-size: 0.72rem;
+  font-weight: 800;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.project-brand-greenlane {
+  background: radial-gradient(circle at 25% 20%, rgba(112, 220, 91, 0.45), transparent 38%), linear-gradient(135deg, #063f35, #08785e);
+}
+
+.project-brand-helix {
+  background: radial-gradient(circle at 75% 25%, rgba(72, 164, 255, 0.35), transparent 38%), linear-gradient(135deg, #061d49, #064e8a);
+}
+
 .project-media figcaption {
   position: absolute;
   left: 12px;
@@ -924,6 +957,16 @@ h3 {
   font-size: 0.98rem;
   font-style: italic;
   line-height: 1.55;
+}
+
+.project-highlights {
+  display: grid;
+  gap: 8px;
+  margin: -4px 0 0;
+  padding-left: 18px;
+  color: var(--muted);
+  font-size: 0.88rem;
+  line-height: 1.5;
 }
 
 .stack-list {

@@ -16,24 +16,24 @@ import './styles.css';
 const profile = {
   name: 'Estanislao Ran-Jel I. Estanislao',
   shortName: 'Ran-Jel Estanislao',
-  role: 'Developer',
+  role: 'Junior Developer',
   email: 'ranjelestanislao03@gmail.com',
   phone: '09930017809',
   location: 'Rodriguez, Rizal, Philippines',
-  resumeUrl: '/Estanislao_RanJel_JOB_Resume.pdf',
+  resumeUrl: '/Estanislao_Resume.pdf',
   linkedin: 'https://www.linkedin.com/in/ran-jel-estanislao-829487263/',
   github: 'https://github.com/DASH1324',
   summary:
-    'I am an Information Technology student and developer who enjoys turning real business workflows into working software. My focus is full-stack development with a strong backend foundation: building REST APIs, designing database logic, connecting React interfaces, and preparing applications for deployment. Through academic, capstone, internship, and live projects, I have worked on systems for fleet operations, POS and inventory, record management, hotel booking, and recipe planning.',
+    'I am a Cum Laude Information Technology graduate and Junior Developer at Helix Software Technologies. I build full-stack business software, from React interfaces and Java features to APIs, database logic, and production-ready workflows.',
 };
 
 const contactFormEndpoint = '3375c069ac2125ec3ff49654e0e40946';
 
 const stats = [
-  ['Developer', 'Target Role'],
-  ['MERN / FastAPI', 'Main Stack Experience'],
-  ['REST APIs', 'Backend Focus'],
-  ['2026', 'BSIT Completion'],
+  ['Junior Developer', 'Current Role'],
+  ['React / Java', 'Current Stack'],
+  ['Full-Stack', 'Development Focus'],
+  ['Cum Laude', 'BSIT Graduate · 2026'],
 ];
 
 const navItems = [
@@ -46,6 +46,26 @@ const navItems = [
 ];
 
 const projects = [
+  {
+    title: 'GreenLane',
+    type: 'Helix Software Technologies · Full-Stack Developer',
+    brand: 'GreenLane',
+    period: '2026',
+    liveUrl: 'https://staging.greenlane.ph/',
+    stack: ['TSX (React)', 'Java'],
+    description: 'BIR EIS compliance readiness platform for PEZA Registered Business Enterprises.',
+    highlights: ['Built PMO admin console screens for dashboards, orientation, assessments, consultations, clients, invoices, and admin users.', 'Extended Java back-end features to support front-end functionality.'],
+  },
+  {
+    title: 'Helix CAS',
+    type: 'Helix Software Technologies · Front-End Developer',
+    brand: 'Helix CAS',
+    period: '2026',
+    liveUrl: 'https://app.helixcas.com/',
+    stack: ['TSX (React)', 'Java'],
+    description: 'BIR EIS-compliant ERP and computerized accounting system for Philippine corporations and agencies.',
+    highlights: ['Built Sales, Inventory, Dashboard, Customer, Staff, and Invoice screens.', 'Integrated front-end screens with the Java back-end.'],
+  },
   {
     title: 'PawFolio',
     type: 'Full-Stack Project',
@@ -142,11 +162,19 @@ const skillGroups = [
 
 const timeline = [
   {
+    label: 'Junior Developer',
+    place: 'Helix Software Technologies',
+    detail: 'Developing GreenLane and Helix CAS, building React interfaces and extending Java back-end features for business software.',
+    date: '2026 - Present',
+    type: 'Experience',
+    tags: ['React', 'TypeScript', 'Java', 'ERP', 'BIR EIS'],
+  },
+  {
     label: 'Backend Developer Intern',
     place: 'MyFleet Philippines Inc.',
     detail:
       'Worked on internal operations modules for fleet, vehicle, driver, and trip management using the MERN stack. Contributed to backend API design and database schema planning.',
-    date: '2026 - Present',
+    date: '2026',
     type: 'Experience',
     tags: ['MongoDB', 'Express.js', 'React.js', 'Node.js', 'REST APIs'],
   },
@@ -154,8 +182,8 @@ const timeline = [
     label: 'Bachelor of Science in Information Technology',
     place: 'Polytechnic University of the Philippines Quezon City',
     detail:
-      'Coursework in database management, web development, system development, QA, system analysis and design, and data analytics. Graduating 2026.',
-    date: '2022 - 2026',
+      'Graduated Cum Laude with a Bachelor of Science in Information Technology.',
+    date: '2022 - 2026 · Cum Laude',
     type: 'Education',
     tags: ['Database Management', 'Web Development', 'System Analysis', 'QA', 'Data Analytics'],
   },
@@ -224,12 +252,24 @@ function ProjectCard({ project }) {
   return (
     <article className="project-card">
       <figure className="project-media">
-        <img src={project.image} alt={`${project.title} screenshot`} />
+        {project.image ? (
+          <img src={project.image} alt={`${project.title} screenshot`} />
+        ) : (
+          <div className={`project-brand project-brand-${project.title === 'GreenLane' ? 'greenlane' : 'helix'}`}>
+            <strong>{project.brand}</strong>
+            <span>{project.period} · Helix Software Technologies</span>
+          </div>
+        )}
         <figcaption>{project.type}</figcaption>
       </figure>
       <div className="project-body">
         <h3>{project.title}</h3>
         <p>{project.description}</p>
+        {project.highlights && (
+          <ul className="project-highlights">
+            {project.highlights.map((highlight) => <li key={highlight}>{highlight}</li>)}
+          </ul>
+        )}
         <div className="stack-list">
           {project.stack.map((item) => (
             <span key={item}>{item}</span>
@@ -437,12 +477,12 @@ function App() {
           <div className="hero-copy">
             <p className="eyebrow">Application Portfolio</p>
             <h1>
-              Developer focused on <span>backend systems</span> and web applications.
+              Junior Developer building <span>business software</span> and web applications.
             </h1>
             <p className="summary">
-              I build practical software for business workflows: APIs, database logic, system
-              modules, React interfaces, and deployed applications. My work includes fleet
-              operations, POS and inventory systems, record management, and user-facing web apps.
+              I build practical software for business workflows: Java features, React interfaces,
+              APIs, and database-backed systems. I currently work on electronic invoicing and
+              accounting platforms at Helix Software Technologies.
             </p>
             <div className="actions">
               <a className="button primary" href={profile.resumeUrl} download>
@@ -465,9 +505,9 @@ function App() {
               Hi, I'm <span className="typing-name">Ran-Jel.</span>
             </h2>
             <p>
-              A <strong>full-stack developer</strong> from the Philippines, currently finishing my
-              BSIT degree at <strong>PUP Quezon City</strong>. I write APIs, design databases, and
-              build web systems that support real business workflows.
+              A <strong>Junior Developer at Helix Software Technologies</strong> and Cum Laude BSIT
+              graduate from <strong>PUP Quezon City</strong>. I build web systems that support real
+              business workflows.
             </p>
             <div className="about-info" aria-label="About profile details">
               <div>
@@ -483,8 +523,8 @@ function App() {
                 <strong>BSIT - PUP Quezon City</strong>
               </div>
               <div>
-                <span>Graduating</span>
-                <strong>2026</strong>
+                <span>Graduated</span>
+                <strong>2026 · Cum Laude</strong>
               </div>
             </div>
           </div>
@@ -499,9 +539,9 @@ function App() {
             </div>
             <div>
               <strong>Ran-Jel Estanislao</strong>
-              <span>Full-Stack Developer</span>
+              <span>Junior Developer</span>
             </div>
-            <small>Open to opportunities</small>
+            <small>Junior Developer · Helix Software Technologies</small>
           </div>
         </section>
 
